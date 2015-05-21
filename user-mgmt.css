@@ -1,0 +1,25 @@
+input {
+    display: block;
+    box-sizing: border-box;
+    height: 25px;
+    width: 250px;
+    padding: 20px;
+}
+
+.addUserButton {
+  display: block;
+  box-sizing: border-box;
+  height: 30px;
+  width: 70px;
+  padding: 50px;
+  border-radius: 5;
+}
+
+.addUser {
+  float: left;
+}
+
+.UserList {
+  float: right;
+  list-style: none;
+}
