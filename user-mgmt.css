@@ -17,9 +17,12 @@ input {
 
 .addUser {
   float: left;
+  width: 50%;
 }
 
 .UserList {
   float: right;
-  list-style: none;
+  list-style-type: none;
+  width: 50%;
+  text-align: left;
 }
