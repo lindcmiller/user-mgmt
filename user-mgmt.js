@@ -3,7 +3,7 @@ $(document).ready(function(){
   var users = [];
 
   $(".userFields").submit(function(e) {
-    e.preventDefault();
+    e.preventDefault(); 
 
     // 1. Get the first name
     // 2. Get the last name

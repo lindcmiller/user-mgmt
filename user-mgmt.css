@@ -3,7 +3,7 @@ input {
     box-sizing: border-box;
     height: 25px;
     width: 250px;
-    padding: 20px;
+    padding: 20px; 
 }
 
 .addUserButton {
