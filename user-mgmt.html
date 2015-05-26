@@ -1,17 +1,18 @@
-<html>
+<!DOCTYPE html>
 
 <head>
 
 <meta charset="utf-8">
+<link rel="stylesheet" href="reset.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="user-mgmt.css">
-
 <title>User Management</title>
 
 </head>
 
 <body>
 
-<h1>Add User</h1>
+<h1 class="heading">User List</h1>
 
 <div class="addUser">
 		<form class="userFields">
@@ -20,18 +21,17 @@
 		    <label>Email:</label><input type="textbox" class="email">
 
 				<div class="button">
-					<button class="addUserButton">+ Add</button>
+					<button class="addUserButton">Add User</button>
 				</div>
 		</form>
 </div>
 
 <div>
 		<ul class="userList">
-			<li class="user">
-			</li>
+				<li class="user">
+				</li>
 		</ul>
 </div>
-
 
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="user-mgmt.js"></script>

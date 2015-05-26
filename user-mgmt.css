@@ -1,23 +1,57 @@
+body{
+  background-color: #778899;
+  font-family: 'Lato', sans-serif;
+}
+
+.heading{
+  text-align: center;
+  color: #FFFACD;
+  width: 100%;
+  height: 10%;
+  font-size: 200%;
+  font-weight: 900;
+  padding:5%;
+}
+
+label {
+  float: left;
+  color: #FFFACD;
+  padding-top: 10px;
+}
+
 input {
     display: block;
     box-sizing: border-box;
     height: 25px;
     width: 250px;
     padding: 20px;
+    margin-left:20%;
+    margin-bottom: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 80%;
 }
 
 .addUserButton {
   display: block;
   box-sizing: border-box;
-  height: 30px;
-  width: 70px;
-  padding: 50px;
-  border-radius: 5;
+  padding: 20px 40px;
+  border-radius: 10%;
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 80%;
+  font-weight: 700;
+  color: #FFFACD;
+  background-color: #00BFFF;
+  margin-left:20%;
 }
 
 .addUser {
   float: left;
   width: 50%;
+  color:#00BFFF;
+  font-size: 120%;
+  margin: 1em;
 }
 
 .UserList {
@@ -26,4 +60,10 @@ input {
   width: 50%;
   text-align: left;
 }
- 
+
+li {
+  color: #FFFACD;
+  line-height: 2em;
+  font-size: 100%;
+  font-weight: 700;
+}

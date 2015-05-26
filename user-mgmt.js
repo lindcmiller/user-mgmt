@@ -19,13 +19,6 @@ $(".userList").html(users.map(function(user) {
 }));
 
 $(".userFields").children('input').val('');
-
   });
-
-
-
-$(document).on('click','.user', function() {
-$(this).remove(); x--;
- });
 
 });
