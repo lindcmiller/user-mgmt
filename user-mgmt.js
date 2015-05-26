@@ -1,22 +1,24 @@
 $(document).ready(function(){
 
-    $('.addUserButton').click(function () {
-      this.preventDefault();
+  var users = [];
 
-	var userArray = [];
-}
+  $(".userFields").submit(function(e) {
+    e.preventDefault();
 
-$ ('userArray[]').create('.userList') {
-	.attr('<li>' + '' + '</li>');
-	userArray.append(['ul']);
- };
+    var userInput = {
+      firstName: $(".firstName").val(),
+      lastName: $(".lastName").val(),
+      email: $(".email").val()
+    };
 
-$('addUser[]').on('input', function () {
-    var input = $(this);
-    var len = input.val();
+    users.push(userInput);
 
-    var container = input.parent();
-      //span.appendTo(container);
-      container.append(span);
-    });
+$(".userList").html(users.map(function(user) {
+  return "<li>" + user.firstName + " " + user.lastName + " : " + user.email + "</li>";
+
+}));
+
+$(".userFields").children('input').val('');
+  });
+
 });
